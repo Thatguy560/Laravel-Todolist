@@ -67,3 +67,20 @@ php artisan serve (To open up server)
 [Service Container](https://laravel.com/docs/8.x/container)
 
 [Facades](https://laravel.com/docs/8.x/facades)
+
+**IMPORTANT**
+
+This project needs to be using PHP Version 8.0, to change to this type 'php80' in the terminal. Remember after finishing with this project to use version 73.
+
+Remember to run the command '**flip**' in your virtual machine to change between apache and enginex.
+
+All changes are made in here and gets mapped across to Vagrant/Homestead directory.
+
+# Following todolist tutorial steps 
+
+[Todolist tutorial steps](https://laravel.com/www.youtube.com/watch?v=UHSipe7pSac)
+
+1) Updated the .env file with new DB password and username.
+
+2) Ran php artisan make:model Item -m to create a new items table.
+
